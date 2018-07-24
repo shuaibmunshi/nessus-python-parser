@@ -1,0 +1,9 @@
+Plugin ID,CVE,CVSS,Host,Protocol,Port,Name,Synopsis,Description,Solution,Plugin Output
+11849,CVE-2003,9,192.168.1.131,tcp,21,ProFTPD File,Arbitrary Code Execution,Remote host is running old version,UpgradeProFTP,
+11356,CVE-2002,10,192.168.1.131,tcp,22,SSHD File, Remote access,Account root on the host has known pass,Change the password,Can execute command ID
+22123,CVE-1001,,192.168.1.131,udp,7,Echo Service Detection,Echo service is running,Remote host is running echo,Comment out echo in /etc/inetd.conf,
+11849,CVE-2003,9,192.168.1.132,tcp,21,ProFTPD File,Arbitrary Code Execution,Remote host is running old version,UpgradeProFTP,
+11356,CVE-2002,10,192.168.1.132,tcp,22,SSHD File, Remote access,Account root on the host has known pass,Change the password,Can execute command ID
+22123,CVE-1001,,192.168.1.132,udp,7,Echo Service Detection,Echo service is running,Remote host is running echo,Comment out echo in /etc/inetd.conf,
+22123,CVE-1001,,192.168.1.133,udp,7,Echo Service Detection,Echo service is running,Remote host is running echo,Comment out echo in /etc/inetd.conf,
+66677,CVE-2018,12,192.168.1.134,udp,22,Old version of SSH,An old version of SSH is running,The remote host is running an old version of SSH,Update SSH,SSHv1
