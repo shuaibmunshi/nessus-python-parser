@@ -4,7 +4,7 @@
 import pandas as pd
 import numpy as np
 
-df = pd.read_csv('fuckyou.csv', encoding='utf-8', usecols=['Plugin ID', 'Host', 'Name', 'Solution'], sep=',', quotechar='"', quoting=2)
+df = pd.read_csv('test.csv', encoding='utf-8', usecols=['Plugin ID', 'Host', 'Name', 'Solution'], sep=',', quotechar='"', quoting=2)
 #df['Host'].describe()
 df["Duplicated"]=df.duplicated(['Plugin ID'], keep=False) #Adds is_duplicated collumn
 #pd.concat(g for _, g in df.groupby("Host") if len(g) > 1)
